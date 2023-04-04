@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sign-in-section {
+  text-align: center;
+  form {
+
+       button {
+         right: 446px;
+       }  
+  }
+}
+
+
+.profile-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: #ccc;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  img {
+      margin: auto;
+      width: 100%;
+      object-fit: cover;
+  }
+}
+
+.profile-body {
+  width: 88% !important;
+}
